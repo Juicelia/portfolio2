@@ -1,0 +1,124 @@
+html, body{
+    height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+   body{
+    font-family: 'Dancing Script', cursive;
+   }
+.navbar-nav .nav-link {
+  font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+header h2 {
+  font-family: 'Dancing Script', cursive;
+    font-size: 5.5rem; 
+    color: black; 
+}
+header p {
+  font-family: 'Dancing Script', cursive;
+    font-size: 5.5rem; 
+    color: black; 
+}
+.main-content h2 {
+  font-family: 'Dancing Script', cursive;
+    font-size: 2rem; 
+}
+
+.main-content p {
+  font-family: 'Dancing Script', cursive;
+    font-size: 1.1rem; 
+}
+    .nav-link{
+        text-decoration: none;
+        color: transparent;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+        margin-bottom: 10px;
+        background: linear-gradient( 120deg, brown 50.69%, black 40.69% );
+          background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .navbar{
+        padding: 0%;
+      }
+      .navbar .navbar-nav .nav-item{
+        position:relative
+      }
+      .navbar .navbar-nav .nav-link{
+        padding: 1em 0;
+      }
+      .navbar .navbar-nav .nav-item{
+        margin: 0 1em 0;
+      }
+      .navbar .navbar-nav .nav-item::after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+        content: "";
+        background-color:#F1DCD4;
+        width: 0%;
+        height: 2px;
+        transition:all .5s;
+      }
+      .navbar .navbar-nav .nav-item:hover:after{
+        width: 100%;
+      }
+    
+    main{
+        background-position: 0%;
+        flex:1 0 auto;
+    }
+    
+    
+    footer{
+        background: linear-gradient(to right, #F7DDD3, gray);
+        flex-shrink: 0;
+    }
+    
+    header{
+        background: no-repeat center center;
+        background-size: cover;
+        color: white;
+    }
+    
+    .color-overlay{
+        min-height: 60vh;
+    
+    }
+    
+    .singleCol{
+        max-width: 765px;
+    }
+    
+    footer{
+        background-color: bisque;
+    }
+    
+    footer a {
+        color: white;
+    }
+    
+    footer a:hover{
+        color: #dfdfdf;
+    }
+        
+    @media (max-width: 768px){
+        .color-overlay{
+            min-height: 30vh;
+        }
+    }
+    @media screen and (min-width:992px) {
+	
+    }
+    
+    
